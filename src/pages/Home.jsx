@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Products from "../components/Products";
+import Favorties from "../components/Favorties";
 
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
     <>
       <Hero />
       <main>
-        <Products />
+        <Favorties />
         
       </main>
     </>
