@@ -19,25 +19,18 @@ function Nav() {
             <Link to="/">M&H</Link>
           </div>
           <ul className="navbar__menu">
-            <li  className="nav__menu__text">
+            <li className="nav__menu__text">
               <Link to="/">Home</Link>
             </li>
-            <li
-              className="nav__menu__text"
-            >
+            <li className="nav__menu__text">
               <Link to="/catalog">Catalog</Link>
             </li>
-            <li
-              className="nav__menu__text"
-            >
-              <Link to="/">Product Page</Link>
+            <li className="nav__menu__text">
+              <Link to="/product/Gold lamp">Product Page</Link>
             </li>
-            <Link to="/">
-              <FaShoppingCart className="nav__cart" />
-            </Link>
+            <FaShoppingCart className="nav__cart" />
             <IconMenu2 onClick={openMobile} className="hamburger-menu" />
           </ul>
-
         </div>
       </nav>
       <div className={`mobile-nav ${mobile ? "mobile-up" : ""}`}>
@@ -50,7 +43,7 @@ function Nav() {
             <Link to="/catalog">Catalog</Link>
           </li>
           <li onClick={openMobile}>
-            <Link to="/">Product Page</Link>
+            <Link to="/product/Gold lamp">Product Page</Link>
           </li>
         </ul>
       </div>
