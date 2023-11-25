@@ -3,16 +3,16 @@ import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import products from "../data/products";
 import "../styles/ProductPage.css";
+import { useCart } from "../cart/cartContext";
 
 function ProductPage() {
   const { id } = useParams();
   const foundProduct = products.find((product) => product.name === id);
   const [quantity, setQuantity] = useState(1);
-
+  const { addToCart } = useCart();
   const addOrSub = (action) => {
-
     if (action === "add") {
-      if(quantity === 3){
+      if (quantity === 3) {
         return;
       }
       setQuantity((prevQuantity) => prevQuantity + 1);
@@ -45,16 +45,22 @@ function ProductPage() {
               </p>
               <p className="product__quantitle">Quantity</p>
               <div className="product__quantity">
-                <button className="product__btn" onClick={() => addOrSub("sub")}>
+                <button
+                  className="product__btn"
+                  onClick={() => addOrSub("sub")}
+                >
                   -
                 </button>
                 <p className="product__amount">{quantity}</p>
-                <button className="product__btn" onClick={() => addOrSub("add")}>
+                <button
+                  className="product__btn"
+                  onClick={() => addOrSub("add")}
+                >
                   +
                 </button>
               </div>
               <div className="product__buyingbtns">
-                <button className="product__cart ">Add To Cart</button>
+                <button className="product__cart " onClick={() => addToCart(foundProduct, quantity)}>Add To Cart</button>
                 <button className="product__buy ">Buy Now</button>
               </div>
             </div>
