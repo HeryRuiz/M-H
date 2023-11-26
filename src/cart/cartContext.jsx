@@ -1,3 +1,5 @@
+// cartContext.js
+
 import React, { createContext, useContext, useState } from "react";
 
 const CartContext = createContext();
@@ -13,7 +15,6 @@ const CartProvider = ({ children }) => {
     if (existingItem) {
       const totalQuantity = existingItem.quantity + quantity;
 
-      // Check if the total quantity exceeds the limit (3)
       if (totalQuantity > 3) {
         console.log(`Cannot add more than 3 ${product.name} to the cart.`);
         return;
@@ -41,8 +42,19 @@ const CartProvider = ({ children }) => {
     setCart(cart.filter((item) => item.product.name !== productName));
   };
 
+  const updateQuantity = (productName, newQuantity) => {
+    const updatedCart = cart.map((item) =>
+      item.product.name === productName
+        ? { ...item, quantity: newQuantity }
+        : item
+    );
+    setCart(updatedCart);
+    console.log("Quantity updated for", productName, "to", newQuantity);
+    console.log("Updated Cart:", updatedCart);
+  };
+
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart }}>
+    <CartContext.Provider value={{ cart, addToCart, removeFromCart, updateQuantity }}>
       {children}
     </CartContext.Provider>
   );
@@ -57,3 +69,4 @@ const useCart = () => {
 };
 
 export { CartProvider, useCart };
+
