@@ -2,9 +2,9 @@
 
 <h2>About the project</h2>
 
-<p><b>GOEV</b> is a pioneering company at the forefront of the electric vehicle (EV) revolution. Established with a commitment to sustainable mobility and innovation, GOEV is redefining the future of transportation with its cutting-edge electric cars. <br/>
+<p><b>M&H</b> Indulge in the epitome of sophistication with M&H, where every piece of luxury furniture is meticulously crafted to perfection. Elevate your living space with our curated collection, designed with precision and adorned with opulence. <br />
 
-At the heart of GOEV is a relentless pursuit of innovation and technology. Our electric cars are equipped with state-of-the-art battery technology, offering impressive range and performance. The integration of smart connectivity features ensures a seamless and enjoyable driving experience.
+  M&H offers a harmonious blend of timeless elegance and contemporary allure, ensuring each piece not only complements your style but becomes a statement of refined taste. Immerse yourself in the world of luxury at M&H, where unparalleled craftsmanship meets enduring beauty. Redefine your surroundings with furnishings that transcend the ordinary, exclusively tailored for those who appreciate the finer things in life.
 
 </p>
 
