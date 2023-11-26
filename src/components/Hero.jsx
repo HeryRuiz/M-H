@@ -8,7 +8,7 @@ function Hero() {
           <div className="hero__text">
             <h1 className="hero__text--title">M&H Luxury furniture</h1>
             <p className="hero__text--des">2024 Newest Collection</p>
-            <Link to="/catalog" className="hero__explore">
+            <Link to="/products" className="hero__explore">
               Explore The Catalog
             </Link>
           </div>
