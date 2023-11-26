@@ -29,7 +29,7 @@ At the heart of GOEV is a relentless pursuit of innovation and technology. Our e
 
 <br><br>
 
-<h3 align='center'>Catalog Page🎁</h3>
+<h3 align='center'>Catalog Page 🎁</h3>
 
 <div align='center'>
   <img src='https://cdn.discordapp.com/attachments/1175025075448205375/1178289322814869524/localhost_5173_.png?ex=65759a72&is=65632572&hm=9fb759bbb51ad40f17b0e3343f0447503d56a05ca45a668956ee2ab7a29b1c41&'/>
