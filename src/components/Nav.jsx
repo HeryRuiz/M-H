@@ -32,7 +32,7 @@ function Nav() {
               <Link to="/">Home</Link>
             </li>
             <li className="nav__menu__text">
-              <Link to="/catalog">Catalog</Link>
+              <Link to="/products">Catalog</Link>
             </li>
             <li className="nav__menu__text">
               <Link to="/product/Gold lamp">Product Page</Link>
@@ -56,7 +56,7 @@ function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li onClick={openMobile}>
-            <Link to="/catalog">Catalog</Link>
+            <Link to="/products">Catalog</Link>
           </li>
           <li onClick={openMobile}>
             <Link to="/product/Gold lamp">Product Page</Link>

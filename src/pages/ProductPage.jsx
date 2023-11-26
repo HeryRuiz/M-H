@@ -60,7 +60,12 @@ function ProductPage() {
                 </button>
               </div>
               <div className="product__buyingbtns">
-                <button className="product__cart " onClick={() => addToCart(foundProduct, quantity)}>Add To Cart</button>
+                <button
+                  className="product__cart "
+                  onClick={() => addToCart(foundProduct, quantity)}
+                >
+                  Add To Cart
+                </button>
                 <button className="product__buy ">Buy Now</button>
               </div>
             </div>

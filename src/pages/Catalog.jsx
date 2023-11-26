@@ -9,10 +9,12 @@ function Catalog() {
         <div className="catalog__container">
           <div className="catalog__content">
             <div>
-              <Link to='/' className="catalog__link">{'< Home'}</Link>
+              <Link to="/" className="catalog__link">
+                {"< Home"}
+              </Link>
             </div>
             <h2>ALL</h2>
-            <div className="catalog__grid"> 
+            <div className="catalog__grid">
               {products.map((product, index) => (
                 <div key={index} className="catalog__home">
                   <Link to={`/product/${product.name}`}>

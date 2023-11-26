@@ -4,16 +4,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
   display: flex;
   flex-direction: column;
   height: 40rem;
   justify-content: center;
   width: 100%;
-  color: white;
 }
 
 .hero__text {
-
   align-items: center;
   display: flex;
   flex-direction: column;
