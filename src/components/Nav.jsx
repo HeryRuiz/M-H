@@ -37,10 +37,14 @@ function Nav() {
             <li className="nav__menu__text">
               <Link to="/product/Gold lamp">Product Page</Link>
             </li>
-            <FaShoppingCart
-              className="nav__cart"
-              onClick={() => cartModal("icon")}
-            />
+            <div>
+              <div className="red-dot">{cart.length}</div>
+              <FaShoppingCart
+                className="nav__cart"
+                onClick={() => cartModal("icon")}
+              />
+            </div>
+
             <IconMenu2 onClick={openMobile} className="hamburger-menu" />
           </ul>
         </div>
@@ -62,7 +66,10 @@ function Nav() {
       <div className="cart">
         <div className="cart__close">
           <p>{`Your Shopping Cart (${cart.length})`}</p>
-          <IconX onClick={() => cartModal("close")} />
+          <IconX
+            onClick={() => cartModal("close")}
+            className="cart__closebtn"
+          />
         </div>
         <div className="cart__items">
           {cart.map((item, index) => (
