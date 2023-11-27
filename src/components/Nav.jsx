@@ -101,7 +101,7 @@ function Nav() {
               .00
             </p>
           </div>
-          <button className="cart__checkout">Go Checkout</button>
+          <button className="cart__checkout" onClick={() => cartModal("close")}>Go Checkout</button>
         </div>
       </div>
     </>
