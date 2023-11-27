@@ -24,7 +24,17 @@ function ProductPage() {
       }
     }
   };
-
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+  const filteredProducts = products.filter(
+    (product) => product.name !== foundProduct.name
+  );
+  const shuffledProducts = shuffleArray(filteredProducts).slice(0, 4);
   return (
     <section id="product">
       <div className="product__container">
@@ -87,7 +97,7 @@ function ProductPage() {
           <div className="product__other">
             <h3>Related products</h3>
             <div className="product__grid">
-              {products.slice(0, 4).map((product, index) => (
+              {shuffledProducts.map((product, index) => (
                 <div key={index} className="product__home">
                   <Link to={`/product/${product.name}`}>
                     <div className="product__img">

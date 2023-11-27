@@ -10,7 +10,7 @@ function Favorites() {
           <div className="favorites__container">
             <h2>M&H Favorties</h2>
             <div className="favorites__grid">
-              {products.map((product, index) => (
+              {products.slice(0, 8).map((product, index) => (
                 <div key={index} className="favorites__home">
                   <Link to={`/product/${product.name}`}>
                     <div className="favorites__img">
