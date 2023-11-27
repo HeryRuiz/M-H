@@ -38,6 +38,6 @@
 <h3 align='center'>Product Page 👝</h3>
 
 <div align='center'>
-  <img src='https://cdn.discordapp.com/attachments/1175025075448205375/1178289488934477835/localhost_5173__1.png?ex=65759a99&is=65632599&hm=aa0080edeec484afc14afc3a5e3cc60cba0cf3c271e83c4395150c5fb358bacd&'/>
+  <img src='https://cdn.discordapp.com/attachments/1175025075448205375/1178697057314287687/localhost_5173__2.png?ex=6577162d&is=6564a12d&hm=8757e83dae30abdbef1d983b757e96f2d178c390a48d33500f7833a915da818c&'/>
 </div>
 <br><br>
