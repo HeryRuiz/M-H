@@ -5,18 +5,19 @@ import { Link } from "react-router-dom";
 import { useCart } from "../cart/cartContext";
 import "../styles/Nav.css";
 
+export function cartModal(string) {
+  if (string === "icon") {
+    document.querySelector(".cart").style.right = "0";
+  } else {
+    document.querySelector(".cart").style.right = "-150%";
+  }
+}
+
 function Nav() {
   const [mobile, setMobile] = useState(false);
   const openMobile = () => {
     setMobile(!mobile);
   };
-  function cartModal(string) {
-    if (string === "icon") {
-      document.querySelector(".cart").style.right = "0";
-    } else {
-      document.querySelector(".cart").style.right = "-150%";
-    }
-  }
 
   const { cart, removeFromCart, updateQuantity } = useCart();
 
@@ -101,7 +102,9 @@ function Nav() {
               .00
             </p>
           </div>
-          <button className="cart__checkout" onClick={() => cartModal("close")}>Go Checkout</button>
+          <button className="cart__checkout" onClick={() => cartModal("close")}>
+            Go Checkout
+          </button>
         </div>
       </div>
     </>

@@ -1,5 +1,3 @@
-
-
 import React, { createContext, useContext, useState } from "react";
 
 const CartContext = createContext();
@@ -11,7 +9,6 @@ const CartProvider = ({ children }) => {
     const existingItem = cart.find(
       (item) => item.product.name === product.name
     );
-
     if (existingItem) {
       const totalQuantity = existingItem.quantity + quantity;
 
@@ -46,7 +43,9 @@ const CartProvider = ({ children }) => {
   };
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart, updateQuantity }}>
+    <CartContext.Provider
+      value={{ cart, addToCart, removeFromCart, updateQuantity }}
+    >
       {children}
     </CartContext.Provider>
   );
@@ -61,4 +60,3 @@ const useCart = () => {
 };
 
 export { CartProvider, useCart };
-
