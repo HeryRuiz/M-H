@@ -126,7 +126,9 @@
 .close__mobile:hover {
   opacity: 0.5;
 }
+
 /* cart */
+
 .cart {
   background-color: white;
   color: black;
@@ -137,7 +139,7 @@
   position: fixed;
   right: -150%;
   top: 0;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 400px;
   z-index: 9999999;
   @media (max-width: 700px) {
