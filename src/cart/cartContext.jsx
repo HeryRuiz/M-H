@@ -1,10 +1,9 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useState, useEffect } from "react";
 
 const CartContext = createContext();
 
 const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
-
   const addToCart = (product, quantity) => {
     const existingItem = cart.find(
       (item) => item.product.name === product.name
@@ -41,6 +40,15 @@ const CartProvider = ({ children }) => {
     );
     setCart(updatedCart);
   };
+  useEffect(() => {
+    let cartNumber = 0
+    if(cartNumber === 0){
+    document.querySelector('.red-dot').style.display = "none";
+    }
+    if(cart.length >= 1){
+      document.querySelector('.red-dot').style.display = "block";
+      }
+  }, [cart]);
 
   return (
     <CartContext.Provider
