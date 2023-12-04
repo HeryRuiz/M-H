@@ -34,7 +34,7 @@
   outline: 2px solid rgba(0, 0, 0, 0.205);
   transition: all 0.15s ease-in;
 }
-.contact__home:hover{
+.catalog__home:hover{
     outline: 2px solid rgb(32, 32, 32)
 }
 .catalog__img > img {
