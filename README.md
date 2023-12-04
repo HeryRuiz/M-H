@@ -24,7 +24,7 @@
 <h3 align='center'>Home Page 🏠</h3>
 
 <div align='center'>
-  <img src='https://cdn.discordapp.com/attachments/1175025075448205375/1178696671568330772/localhost_5173_.png?ex=657715d1&is=6564a0d1&hm=1a1614ba0ef81be01245de123ff9534f4c21098b63c4c08cdf40d5954d918eb3&'/>
+  <img src='https://cdn.discordapp.com/attachments/1175025075448205375/1181309555678904410/m-h.vercel.app_.png?ex=65809741&is=656e2241&hm=9443a9ec18e9346649ec7c9826cbc73d113ebe2c14425936a135d91b9cd13479&'/>
 </div>
 
 <br><br>
