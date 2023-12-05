@@ -32,7 +32,7 @@
 <h3 align='center'>Catalog Page 🎁</h3>
 
 <div align='center'>
-  <img src='https://cdn.discordapp.com/attachments/1175025075448205375/1178696836630974595/localhost_5173__1.png?ex=657715f8&is=6564a0f8&hm=52ab49ab2c2a97487a29ae79216dc071991acc91747bf0b2a9bb9a367c2bbd62&'/>
+  <img src='https://cdn.discordapp.com/attachments/1156969246354587668/1181723703420137514/m-h.vercel.app_products.png?ex=658218f6&is=656fa3f6&hm=458d6333164ada34906f0277e121971cc6ddeb6e6151f228f7b29de57a89d93b&'/>
 </div>
 <br><br>
 <h3 align='center'>Product Page 👝</h3>
