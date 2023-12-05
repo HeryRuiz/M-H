@@ -42,7 +42,7 @@ function ProductPage() {
         <div className="product__content">
           <div className="product__item">
             <div className="product__left">
-              <img src={foundProduct.image} alt="" />
+              <img src={foundProduct.image} alt={foundProduct.name} />
             </div>
             <div className="product__right">
               <h2>{foundProduct.name}</h2>
