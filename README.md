@@ -1,4 +1,4 @@
-<div align='center'><img style="width:20%" src='https://cdn.discordapp.com/attachments/1175025075448205375/1178288578564984862/image.png?ex=657599c0&is=656324c0&hm=dad3743aa2a931e20f9750a7cce30d402e858cb6745db3c24839b48eb16accad&'/></div>
+<div align='center'><img style="width:20%" src='favicon.png'/></div>
 
 <h2>About the project</h2>
 
