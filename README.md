@@ -2,12 +2,12 @@
 
 <h2>About the project</h2>
 
-<p><b>M&H</b> Indulge in the epitome of sophistication with M&H, where every piece of luxury furniture is meticulously crafted to perfection. Elevate your living space with our curated collection, designed with precision and adorned with opulence. <br />
-
-  M&H offers a harmonious blend of timeless elegance and contemporary allure, ensuring each piece not only complements your style but becomes a statement of refined taste. Immerse yourself in the world of luxury at M&H, where unparalleled craftsmanship meets enduring beauty. Redefine your surroundings with furnishings that transcend the ordinary, exclusively tailored for those who appreciate the finer things in life.
-
-</p>
-
+ <p>
+        <b>M&H</b> is a showcase project in my portfolio, demonstrating my proficiency in JavaScript, React, HTML, and CSS. This project introduces a touch of sophistication to the world of luxury furniture, meticulously crafted with the precision that defines M&H.
+      </p>
+      <p>
+        One of the highlights of this project is the implementation of a robust cart functionality using React Context. The cart seamlessly integrates into the user interface, providing a dynamic and intuitive shopping experience. Explore the curated collection and redefine your virtual living space with furnishings that transcend the ordinary, exclusively tailored for those who appreciate the finer things in the digital world.
+      </p>
 👉 Live Demo: <a href='https://m-h.vercel.app'>M&H Demo</a>
 
 <h3>Built using:</h3>
