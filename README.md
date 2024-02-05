@@ -3,7 +3,7 @@
 <h2>About the project</h2>
 
  <p>
-        <b>M&H</b> introduces a touch of sophistication to the world of luxury furniture, meticulously crafted with the precision that defines M&H.
+        The project leveraged advanced React capabilities, particularly React Context, to create a shopping cart feature, thereby enhancing the dynamics of the user interface. Interactive features and dynamic content were engineered using React components, ensuring seamless navigation and engagement for users across diverse devices and browsers. Furthermore, strategic implementation of lazy loading images was employed to improve site performance and user engagement, ultimately contributing to a smoother browsing experience overall. These efforts were aimed at elevating user interaction and satisfaction within the platform.
       </p>
 
 👉 Live Demo: <a href='https://mhfurniture.vercel.app'>M&H Demo</a>
