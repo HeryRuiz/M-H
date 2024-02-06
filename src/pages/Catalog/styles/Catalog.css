@@ -35,6 +35,9 @@
   padding: 0.3rem 1.2rem;
   transition: all 0.2s;
 }
+.catalog__selectors button:hover {
+  border: 2px solid rgba(94, 92, 92);
+}
 .catalog__grid {
   display: grid;
   gap: 2rem;
