@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import products from "../data/products";
 import { Link } from "react-router-dom";
 import "../styles/Catalog.css";
 function Catalog() {
+  const [title, setTitle] = useState("All");
   return (
     <>
       <section id="catalog">
@@ -13,7 +14,16 @@ function Catalog() {
                 {"< Home"}
               </Link>
             </div>
-            <h2>ALL</h2>
+            <div>
+              <h2>{title}</h2>
+              <div className="catalog__selectors">
+                <button>All</button>
+                <button>Furniture</button>
+                <button>Electronics</button>
+                <button>Lights</button>
+              </div>
+            </div>
+
             <div className="catalog__grid">
               {products.map((product, index) => (
                 <div key={index} className="catalog__home">
