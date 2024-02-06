@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
-import { IconMenu2, IconX } from "@tabler/icons-react";
+import {
+  IconBrandDiscord,
+  IconBrandTwitter,
+  IconMenu2,
+  IconX,
+} from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 import { useCart } from "../../cart/cartContext";
 import "./styles/Nav.css";
@@ -36,18 +41,23 @@ function Nav() {
               <Link to="/products">Catalog</Link>
             </li>
             <li className="nav__menu__text">
-              <Link to="/products">Pre Order</Link>
+              <Link to="/products">FAQ</Link>
             </li>
-            <div>
+
+            <IconMenu2 onClick={openMobile} className="hamburger-menu" />
+          </ul>
+          <div className="nav__socials">
+            <a href="https://twitter.com/home"><IconBrandTwitter/></a>
+            <a href="https://discord.com"><IconBrandDiscord /></a>
+            
+            <div className="cart__icon">
               <div className="red-dot">{cart.length}</div>
               <FaShoppingCart
                 className="nav__cart"
                 onClick={() => cartModal("icon")}
               />
             </div>
-
-            <IconMenu2 onClick={openMobile} className="hamburger-menu" />
-          </ul>
+          </div>
         </div>
       </nav>
       <div className={`mobile-nav ${mobile ? "mobile-up" : ""}`}>

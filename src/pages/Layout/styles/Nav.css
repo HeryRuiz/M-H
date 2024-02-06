@@ -18,7 +18,14 @@
     margin-left: 1.5rem;
   }
 }
-
+.nav__socials{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cart__icon{
+  margin-top: 0.1rem;
+}
 .nav__cart {
   cursor: pointer;
   font-size: 1.4rem;
