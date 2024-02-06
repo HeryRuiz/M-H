@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import products from "../../data/products";
-import electronics from "../../data/electronics";
 import furniture from "../../data/furniture";
 import lights from "../../data/lights";
 import { Link } from "react-router-dom";
@@ -36,13 +35,6 @@ function Catalog() {
                 </button>
                 <button
                   onClick={() => {
-                    setTitle("Electronics");
-                  }}
-                >
-                  Electronics
-                </button>
-                <button
-                  onClick={() => {
                     setTitle("Lighting");
                   }}
                 >
@@ -72,8 +64,6 @@ function Catalog() {
                 switch (title) {
                   case "All":
                     return mapProducts(products);
-                  case "Electronics":
-                    return mapProducts(electronics);
                   case "Furniture":
                     return mapProducts(furniture);
                   case "Lighting":

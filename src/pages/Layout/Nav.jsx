@@ -44,7 +44,7 @@ function Nav() {
               <Link to="/products">FAQ</Link>
             </li>
 
-            <IconMenu2 onClick={openMobile} className="hamburger-menu" />
+            
           </ul>
           <div className="nav__socials">
             <a href="https://twitter.com/home"><IconBrandTwitter/></a>
@@ -57,6 +57,7 @@ function Nav() {
                 onClick={() => cartModal("icon")}
               />
             </div>
+            <IconMenu2 onClick={openMobile} className="hamburger-menu" />
           </div>
         </div>
       </nav>
