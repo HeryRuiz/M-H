@@ -162,8 +162,8 @@
     width: 300px;
   }
   @media (max-width: 400px) {
-    width: 100%;
-    padding: 0rem;
+    width: 90%;
+    padding: 1rem;
   }
 }
 .cart__close {
