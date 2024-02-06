@@ -36,7 +36,7 @@ function Nav() {
               <Link to="/products">Catalog</Link>
             </li>
             <li className="nav__menu__text">
-              <Link to="/about">About us</Link>
+              <Link to="/products">Pre Order</Link>
             </li>
             <div>
               <div className="red-dot">{cart.length}</div>
