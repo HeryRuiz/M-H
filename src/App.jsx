@@ -9,6 +9,7 @@ import Home from "./pages/Home/Home.jsx";
 import Layout from "./pages/Layout/Layout.jsx";
 import Catalog from "./pages/Catalog/Catalog.jsx";
 import ProductPage from "./pages/ProductPage//ProductPage.jsx";
+import Faq from "./pages/Faq/Faq.jsx";
 import { CartProvider } from "./cart/cartContext.jsx";
 function App() {
   const ScrollToTop = () => {
@@ -29,7 +30,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Catalog />} />
             <Route path="/product/:id" element={<ProductPage />} />
-            <Route path="/faq" element={<ProductPage />} />
+            <Route path="/faq" element={<Faq />} />
           </Route>
         </Routes>
       </Router>
