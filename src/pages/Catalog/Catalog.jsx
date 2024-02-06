@@ -43,10 +43,10 @@ function Catalog() {
                 </button>
                 <button
                   onClick={() => {
-                    setTitle("Lights");
+                    setTitle("Lighting");
                   }}
                 >
-                  Lights
+                  Lighting
                 </button>
               </div>
             </div>
@@ -76,7 +76,7 @@ function Catalog() {
                     return mapProducts(electronics);
                   case "Furniture":
                     return mapProducts(furniture);
-                  case "Lights":
+                  case "Lighting":
                     return mapProducts(lights);
                   default:
                     return null;
