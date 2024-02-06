@@ -47,8 +47,8 @@ function Nav() {
             
           </ul>
           <div className="nav__socials">
-            <a href="https://twitter.com/home"><IconBrandTwitter/></a>
-            <a href="https://discord.com"><IconBrandDiscord /></a>
+            <a href="https://twitter.com/home" target="_blank"><IconBrandTwitter/></a>
+            <a href="https://discord.com" target="_blank"><IconBrandDiscord /></a>
             
             <div className="cart__icon">
               <div className="red-dot">{cart.length}</div>
