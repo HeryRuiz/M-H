@@ -22,7 +22,7 @@
 <h3 align='center'>Home Page 🏠</h3>
 
 <div align='center'>
-  <img src='home.png'/>
+  <img src='hero.png'/>
 </div>
 
 <br><br>
@@ -30,7 +30,7 @@
 <h3 align='center'>Catalog Page 🎁</h3>
 
 <div align='center'>
-  <img src='catalog.png'/>
+  <img src='catalogg.png'/>
 </div>
 <br><br>
 <h3 align='center'>Product Page 👝</h3>
@@ -39,3 +39,9 @@
   <img src='product.png'/>
 </div>
 <br><br>
+<h3 align='center'>FAQ Page 🕯️</h3>
+
+<div align='center'>
+  <img src='faq.png'/>
+</div>
+
