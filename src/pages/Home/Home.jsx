@@ -2,7 +2,7 @@ import React from "react";
 import Hero from './Hero'
 import Favorites from './Favorites'
 import Banner from './Banner'
-import Trending from './Trending'
+import Trending from './trending'
 function Home() {
   return (
     <>
