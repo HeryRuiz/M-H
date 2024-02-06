@@ -13,9 +13,20 @@
   margin-bottom: 2rem;
   text-align: center;
 }
+.catalog__title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
 .catalog__selectors{
   display: flex;
+  margin: 0rem 1rem;
   gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .catalog__selectors button {
   background-color: initial;

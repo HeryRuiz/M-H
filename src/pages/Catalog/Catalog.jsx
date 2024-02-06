@@ -14,7 +14,7 @@ function Catalog() {
                 {"< Home"}
               </Link>
             </div>
-            <div>
+            <div className="catalog__title">
               <h2>{title}</h2>
               <div className="catalog__selectors">
                 <button>All</button>
