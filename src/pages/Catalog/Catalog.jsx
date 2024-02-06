@@ -52,62 +52,36 @@ function Catalog() {
             </div>
 
             <div className="catalog__grid">
-              {title === "All" &&
-                products.map((product, index) => (
-                  <div key={index} className="catalog__home">
-                    <Link to={`/product/${product.name}`}>
-                      <div className="catalog__img">
-                        <img src={product.image} alt={product.name} />
-                      </div>
-                      <div className="catalog__details">
-                        <p>{product.name}</p>
-                        <p>Price: ${product.price / 100}.00</p>
-                      </div>
-                    </Link>
-                  </div>
-                ))}
-                {title === "Electronics" &&
-                electronics.map((product, index) => (
-                  <div key={index} className="catalog__home">
-                    <Link to={`/product/${product.name}`}>
-                      <div className="catalog__img">
-                        <img src={product.image} alt={product.name} />
-                      </div>
-                      <div className="catalog__details">
-                        <p>{product.name}</p>
-                        <p>Price: ${product.price / 100}.00</p>
-                      </div>
-                    </Link>
-                  </div>
-                ))}
-                {title === "Furniture" &&
-                furniture.map((product, index) => (
-                  <div key={index} className="catalog__home">
-                    <Link to={`/product/${product.name}`}>
-                      <div className="catalog__img">
-                        <img src={product.image} alt={product.name} />
-                      </div>
-                      <div className="catalog__details">
-                        <p>{product.name}</p>
-                        <p>Price: ${product.price / 100}.00</p>
-                      </div>
-                    </Link>
-                  </div>
-                ))}
-                {title === "Lights" &&
-                lights.map((product, index) => (
-                  <div key={index} className="catalog__home">
-                    <Link to={`/product/${product.name}`}>
-                      <div className="catalog__img">
-                        <img src={product.image} alt={product.name} />
-                      </div>
-                      <div className="catalog__details">
-                        <p>{product.name}</p>
-                        <p>Price: ${product.price / 100}.00</p>
-                      </div>
-                    </Link>
-                  </div>
-                ))}
+              {(() => {
+                const mapProducts = (productArray) => {
+                  return productArray.map((product, index) => (
+                    <div key={index} className="catalog__home">
+                      <Link to={`/product/${product.name}`}>
+                        <div className="catalog__img">
+                          <img src={product.image} alt={product.name} />
+                        </div>
+                        <div className="catalog__details">
+                          <p>{product.name}</p>
+                          <p>Price: ${product.price / 100}.00</p>
+                        </div>
+                      </Link>
+                    </div>
+                  ));
+                };
+
+                switch (title) {
+                  case "All":
+                    return mapProducts(products);
+                  case "Electronics":
+                    return mapProducts(electronics);
+                  case "Furniture":
+                    return mapProducts(furniture);
+                  case "Lights":
+                    return mapProducts(lights);
+                  default:
+                    return null;
+                }
+              })()}
             </div>
           </div>
         </div>
