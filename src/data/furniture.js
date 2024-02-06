@@ -33,8 +33,14 @@ const furniture = [
       image:
         "https://minimalist-e-commerce.vercel.app/static/media/19.1e5832c36583dbb804f2.jpg",
       id: 13,
-    }
-
+    },
+    {
+        name: "Black cabinet",
+        price: 5000,
+        image:
+          "https://minimalist-e-commerce.vercel.app/static/media/8.35f833ef20163491e804.jpg",
+        id: 7,
+      },
   ];
   export default furniture;
   
