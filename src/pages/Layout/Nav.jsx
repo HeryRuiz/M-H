@@ -71,7 +71,7 @@ function Nav() {
             <Link to="/products">Catalog</Link>
           </li>
           <li onClick={openMobile}>
-            <Link to="/product/Gold lamp">Product Page</Link>
+            <Link to="/faq">Frequently Asked</Link>
           </li>
         </ul>
       </div>
