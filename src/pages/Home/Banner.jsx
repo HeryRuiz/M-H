@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/Banner.css";
+import "./styles/Banner.css";
 
 function Banner({ title, des, img, reverse }) {
   return (

@@ -1,6 +1,6 @@
-import "../styles/Favorties.css";
+import "./styles/Favorties.css";
 import { Link } from "react-router-dom";
-import products from "../data/products";
+import products from "../../data/products";
 
 function Favorites() {
   return (

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
-import { useCart } from "../cart/cartContext";
-import "../styles/Nav.css";
+import { useCart } from "../../cart/cartContext";
+import "./styles/Nav.css";
 
 export function cartModal(string) {
   if (string === "icon") {

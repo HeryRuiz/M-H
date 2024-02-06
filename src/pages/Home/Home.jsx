@@ -1,14 +1,12 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Favorites from "../components/Favorites";
-import Trending from "../components/trending";
-import Banner from "../components/Banner";
-
+import Hero from './Hero'
+import Favorites from './Favorites'
+import Banner from './Banner'
+import Trending from './Trending'
 function Home() {
   return (
     <>
       <Hero />
-      <main>
         <Favorites />
         <Banner
           title="Start With Design"
@@ -24,7 +22,6 @@ function Home() {
           img="https://image.made-in-china.com/2f0j00TUJoLHRrhykK/White-Luxury-Kitchen-Design-High-End-Lacquer-Finish-Modern-Kitchen-Cabinets.jpg"
           reverse={true}
         />
-      </main>
     </>
   );
 }

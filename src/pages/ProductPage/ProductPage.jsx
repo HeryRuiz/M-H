@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-import products from "../data/products";
-import { cartModal } from "../components/Nav";
-import "../styles/ProductPage.css";
-import { useCart } from "../cart/cartContext";
+import products from "../../data/products";
+import "./styles/ProductPage.css";
+import { useCart } from "../../cart/cartContext";
 
 function ProductPage() {
   const { id } = useParams();

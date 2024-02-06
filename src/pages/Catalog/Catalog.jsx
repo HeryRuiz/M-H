@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import products from "../data/products";
+import products from "../../data/products";
 import { Link } from "react-router-dom";
-import "../styles/Catalog.css";
+import "./styles/Catalog.css";
 function Catalog() {
   const [title, setTitle] = useState("All");
   return (

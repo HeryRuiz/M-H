@@ -5,10 +5,10 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import Layout from "./pages/Layout.jsx";
-import Catalog from "./pages/Catalog.jsx";
-import ProductPage from "./pages/ProductPage.jsx";
+import Home from "./pages/Home/Home.jsx";
+import Layout from "./pages/Layout/Layout.jsx";
+import Catalog from "./pages/Catalog/Catalog.jsx";
+import ProductPage from "./pages/ProductPage//ProductPage.jsx";
 import { CartProvider } from "./cart/cartContext.jsx";
 function App() {
   const ScrollToTop = () => {
