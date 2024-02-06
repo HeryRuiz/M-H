@@ -6,12 +6,23 @@
   max-width: 75rem;
   padding: 0 1.2rem;
 }
-.catalog__link{
-    color: black;
+.catalog__link {
+  color: black;
 }
 .catalog__content > h2 {
   margin-bottom: 2rem;
   text-align: center;
+}
+.catalog__selectors{
+  display: flex;
+  gap: 0.6rem;
+}
+.catalog__selectors button {
+  background-color: initial;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding: 0.3rem 1.2rem;
+  transition: all 0.2s;
 }
 .catalog__grid {
   display: grid;
@@ -34,8 +45,8 @@
   outline: 2px solid rgba(0, 0, 0, 0.205);
   transition: all 0.15s ease-in;
 }
-.catalog__home:hover{
-    outline: 2px solid rgb(32, 32, 32)
+.catalog__home:hover {
+  outline: 2px solid rgb(32, 32, 32);
 }
 .catalog__img > img {
   width: 100%;
