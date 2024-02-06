@@ -8,7 +8,6 @@ import {
 import Home from "./pages/Home/Home.jsx";
 import Layout from "./pages/Layout/Layout.jsx";
 import Catalog from "./pages/Catalog/Catalog.jsx";
-import ProductPage from "./pages/ProductPage//ProductPage.jsx";
 import { CartProvider } from "./cart/cartContext.jsx";
 function App() {
   const ScrollToTop = () => {
