@@ -76,6 +76,6 @@
 
 .text button:hover {
   background-color: #1b1a1a;
-  border-color: rgb(146, 142, 151);
+  border-color: rgb(189, 140, 170);
   color: white !important;
 }
