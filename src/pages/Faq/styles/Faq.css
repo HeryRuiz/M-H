@@ -66,6 +66,6 @@
     transition: all 0.2s ease-in-out;
   }
   .faq__topics p:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(73, 72, 72);
   }
   
