@@ -41,7 +41,7 @@ function Nav() {
               <Link to="/products">Catalog</Link>
             </li>
             <li className="nav__menu__text">
-              <Link to="/faq">FAQ</Link>
+              <Link to="/faq"></Link>
             </li>
 
             
